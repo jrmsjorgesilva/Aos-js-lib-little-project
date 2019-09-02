@@ -17,8 +17,34 @@ body {
 /* TYPOGRAPHY */
 
 a {
-    color: #333;
+    /* color: #333; */
     text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 4rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background: #575478;
+    border-radius: 2.3rem;
+    padding: 2rem;
+    margin: .2rem .2rem .2rem .2rem;
+
+}
+
+.nav-links li a {
+    color: #fff;
+}
+
+.nav-links li a:hover {
+    color: #f1f1f1;
+    opacity: .8;
 }
 
 /* GRID */
